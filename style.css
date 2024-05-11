@@ -1,0 +1,91 @@
+h1 {text-align: center; margin: 50px auto 30px;}
+h1 a {}
+h1 a img {width: 200px;}
+
+h2{
+    padding: 20px 0 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #111;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+#put {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.image{
+    width: 30px; 
+    height: 30px; 
+}
+#container{
+    position: relative;
+    display: flex;
+}
+#container button{
+    position: absolute;
+    top: 0px;
+    bottom: 10px;
+    left: 0px;
+}
+
+#agree {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid rgb(181, 163, 163);
+    text-align: left;
+    font-weight: lighter;
+}
+
+#detail{
+    font-weight: lighter;
+    font-size: smaller;
+}
+input[type="checkbox"] {
+    margin-bottom: 10px; 
+    width: 15px;
+    height: 15px;
+}
+#end{
+    color: white;
+    background-color: rgb(56, 56, 240);
+    width: 425px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#special{
+    font-size: small;
+    font-weight: lighter;
+}
+a {
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+}
+#overall
+{
+    font-weight: bolder;
+}
+
+::placeholder {
+    text-align: center;
+}
