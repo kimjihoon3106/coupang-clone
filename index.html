@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" (type="text/css")>
-    <script src="app.js"></script>
     <title>회원가입</title>
 </head>
 <body>
@@ -41,12 +40,54 @@
     스 이용이 가능합니다.
     </div>
     <div id="agree">
-        <input type="checkbox">[필수] 만 14세 이상입니다. <br>
-        <input type="checkbox">[필수] 쿠팡 이용약관 동의 <br>
-        <input type="checkbox">[필수] 전자금융거래 이용약관 동의 <br>
-        <input type="checkbox">[필수] 개인정보 수집 및 이용 동의 <br>
-        <input type="checkbox">[필수] 개인정보 제3자 제공 동의 <br>
-        <input type="checkbox">[선택] 마케팅 목적의 개인정보 수집 및 이용 동의 <br>
+        <input type="checkbox">[필수] 만 14세 이상입니다. 
+        <button id="modalOpenButton">></button>
+        <div id="modalContainer" class="hidden">
+            <div id="modalContent">
+              <p>모달 창 입니다.</p>
+              <button id="modalCloseButton">X</button>
+            </div>
+          </div><br>
+        <input type="checkbox">[필수] 쿠팡 이용약관 동의
+        <button id="modalOpenButton">></button>
+        <div id="modalContainer" class="hidden">
+            <div id="modalContent">
+              <p>모달 창 입니다.</p>
+              <button id="modalCloseButton">X</button>
+            </div>
+          </div><br>
+        <input type="checkbox">[필수] 전자금융거래 이용약관 동의
+        <button id="modalOpenButton">></button>
+        <div id="modalContainer" class="hidden">
+            <div id="modalContent">
+              <p>모달 창 입니다.</p>
+              <button id="modalCloseButton">닫기</button>
+            </div>
+          </div><br>
+        <input type="checkbox">[필수] 개인정보 수집 및 이용 동의
+        <button id="modalOpenButton">></button>
+        <div id="modalContainer" class="hidden">
+            <div id="modalContent">
+              <p>모달 창 입니다.</p>
+              <button id="modalCloseButton">닫기</button>
+            </div>
+          </div><br>
+        <input type="checkbox">[필수] 개인정보 제3자 제공 동의
+        <button id="modalOpenButton">></button>
+        <div id="modalContainer" class="hidden">
+            <div id="modalContent">
+              <p>모달 창 입니다.</p>
+              <button id="modalCloseButton">닫기</button>
+            </div>
+          </div><br>
+        <input type="checkbox">[선택] 마케팅 목적의 개인정보 수집 및 이용 동의
+        <button id="modalOpenButton">></button>
+        <div id="modalContainer" class="hidden">
+            <div id="modalContent">
+              <p>모달 창 입니다.</p>
+              <button id="modalCloseButton">닫기</button>
+            </div>
+          </div><br>
         <span id="overall"><input type="checkbox">[선택] 광고성 정보 수신 동의</span>  <br>
         &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] 이메일 수신 동의 <br>
         &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">[선택] SMS, SNS 수신 동의  <br> 
